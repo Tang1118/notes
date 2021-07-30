@@ -17,7 +17,7 @@
 - css、js 都可以作为打包入口，一般情况下是 js（main.js）
 
 ```javascript
-// webpack.config.js  
+// webpack.config.back.js  
 module.exports = {
   entry: './src/main.js',
 }
@@ -25,7 +25,7 @@ module.exports = {
 
 - 多个入口打包
 ```javascript
-// webpack.config.js  
+// webpack.config.back.js  
 module.exports = {
   entry: ['./src/file_1.js', './src/file_2.js'],
 }
@@ -192,7 +192,7 @@ module.exports = {
 
 简单的工作流程：
 
-1. webpack.config.js 配置一个 js-loader
+1. webpack.config.back.js 配置一个 js-loader
 2. 打包遇到 js 文件，执行 js-loader
 3. js-loader 是一个函数，接收来文件的 source
 4. js-loader 可以使用一些方法对 source 进行处理，得到结果 result
@@ -237,7 +237,7 @@ webpack 也可以通过 ES Modules 的方式导出，webppack 内部会自己转
 
 在 module.rules 使用 就可以了
 ```javascript
-// ./webpack.config.js
+// ./webpack.config.back.js
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -279,7 +279,7 @@ module.exports = source => {
 - 引入 html-loader 处理 
 
 ```javascript
-// ./webpack.config.js
+// ./webpack.config.back.js
 
 module.exports = {
   entry: './src/main.js',
@@ -369,7 +369,7 @@ module.exports = {
 图片、icon 拷贝到 static 或者 public 下面
 
 ```javascript
-// ./webpack.config.js
+// ./webpack.config.back.js
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
