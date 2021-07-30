@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkzhishi=self.webpackChunkzhishi||[]).push([[8114],{6851:(e,o,n)=>{n.r(o),n.d(o,{default:()=>t});var s=n(6252);const t={components:{Layout:n(2961).Z},beforeRouteUpdate(e,o,n){console.log("11111",e),console.log(o),n()},render:function(e,o,n,t,u,c){const r=(0,s.up)("Layout",!0);return(0,s.wg)(),(0,s.j4)(r)}}}}]);
