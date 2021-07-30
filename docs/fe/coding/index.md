@@ -1,15 +1,16 @@
 # 编程题
 
 ## 数组降维 flat 方法
+
 ::: details 数组降维 flat 方法
-<<< @/docs/fe/coding/coding.js#flat
+@[code{2-25} js](./coding.js)
 :::
 
 ## 获取 Url 参数 getQueryString
 
 ## new 关键词方法
 ::: details new 关键词方法
-<<< @/docs/fe/coding/coding.js#myNew
+@[code{29-46} js](./coding.js)
 :::
 
 ###  add
